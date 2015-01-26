@@ -16,7 +16,7 @@ module Associatable
       #only self's foreign keys and shit can be referenced so u have to deal w/ symbols.
       third_table_name = source_options.class_name.constantize.table_name
       source_foreign_key = source_options.foreign_key
-      p source_options.class_name.constantize
+      source_options.class_name.constantize
       query = DBConnection.execute(<<-SQL, self.id)
       SELECT
         #{third_table_name}.*

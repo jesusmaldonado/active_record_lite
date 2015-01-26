@@ -1,3 +1,3 @@
-# w3d5: [Active Record Lite!][description]
+#Active Record Lite!
 
-[description]: https://github.com/appacademy/sql-curriculum/blob/master/projects/w3d5-build-your-own-ar.md
+This is a Ruby implementation of a SQL object class that contains analogues of the various basic CRUD functions and Query interfaces in Active Record, complete with method chaining and has_one_through associations. Open it up and take a look!
